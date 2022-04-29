@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
+        "projectName": "BibliotecaTema",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
+        "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GONZALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
+        "projectName": "BibliotecaTiempoTranscurrido",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
+        "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GONZALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
+        "projectName": "CalculadoraDeTiempoTranscurrido",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
+        "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GONZALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
+                "projectPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj"
+              },
+              "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
+                "projectPath": "C:\\Users\\GONZALO\\Desktop\\FIIIIIN\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

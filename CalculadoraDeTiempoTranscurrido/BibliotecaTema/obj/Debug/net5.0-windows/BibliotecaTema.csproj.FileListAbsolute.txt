@@ -1,0 +1,12 @@
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Debug\net5.0-windows\BibliotecaTema.deps.json
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Debug\net5.0-windows\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Debug\net5.0-windows\ref\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Debug\net5.0-windows\BibliotecaTema.pdb
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.csproj.AssemblyReference.cache
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\ref\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\FIIIIIN\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Debug\net5.0-windows\BibliotecaTema.pdb
