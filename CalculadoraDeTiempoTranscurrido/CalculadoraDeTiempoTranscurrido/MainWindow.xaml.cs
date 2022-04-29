@@ -44,6 +44,7 @@ namespace CalculadoraDeTiempoTranscurrido
             this.CargarAnios();
             this.CargarMeses();
             this.CargarDias();
+            this.Limpiar();
         }
 
         /// <summary>

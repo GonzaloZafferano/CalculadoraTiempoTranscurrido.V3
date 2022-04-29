@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "CalculadoraDeTiempoTranscurrido/1.0.0": {
+      "CalculadoraDeTiempoTranscurrido/3.0.0": {
         "dependencies": {
           "BibliotecaTema": "1.0.0",
           "BibliotecaTiempoTranscurrido": "1.0.0"
@@ -28,7 +28,7 @@
     }
   },
   "libraries": {
-    "CalculadoraDeTiempoTranscurrido/1.0.0": {
+    "CalculadoraDeTiempoTranscurrido/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
