@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeTiempoTranscurrido", "CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido.csproj", "{4B08D059-DB91-4CB4-8372-2376990D1F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraDeTiempoTranscurrido", "CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido.csproj", "{4B08D059-DB91-4CB4-8372-2376990D1F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaTiempoTranscurrido", "BibliotecaTiempoTranscurrido\BibliotecaTiempoTranscurrido.csproj", "{3E9CC219-6C81-4ED0-ABFE-4C636D0CB897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaTiempoTranscurrido", "BibliotecaTiempoTranscurrido\BibliotecaTiempoTranscurrido.csproj", "{3E9CC219-6C81-4ED0-ABFE-4C636D0CB897}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaTema", "BibliotecaTema\BibliotecaTema.csproj", "{95255E40-0BAB-420A-A055-96471681AD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaTema", "BibliotecaTema\BibliotecaTema.csproj", "{95255E40-0BAB-420A-A055-96471681AD5D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Calculadora de Tiempo Transcurrido", "Calculadora de Tiempo Transcurrido\Calculadora de Tiempo Transcurrido.vdproj", "{5872E3E2-7CA9-4706-9553-A2997B09C063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,8 @@ Global
 		{95255E40-0BAB-420A-A055-96471681AD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95255E40-0BAB-420A-A055-96471681AD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95255E40-0BAB-420A-A055-96471681AD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5872E3E2-7CA9-4706-9553-A2997B09C063}.Debug|Any CPU.ActiveCfg = Debug
+		{5872E3E2-7CA9-4706-9553-A2997B09C063}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

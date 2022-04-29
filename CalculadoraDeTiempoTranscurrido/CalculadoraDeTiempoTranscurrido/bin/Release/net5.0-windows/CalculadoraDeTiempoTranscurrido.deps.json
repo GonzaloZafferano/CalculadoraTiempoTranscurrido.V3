@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalculadoraDeTiempoTranscurrido/3.0.0": {
+        "dependencies": {
+          "BibliotecaTema": "1.0.0",
+          "BibliotecaTiempoTranscurrido": "1.0.0"
+        },
+        "runtime": {
+          "CalculadoraDeTiempoTranscurrido.dll": {}
+        }
+      },
+      "BibliotecaTema/1.0.0": {
+        "runtime": {
+          "BibliotecaTema.dll": {}
+        }
+      },
+      "BibliotecaTiempoTranscurrido/1.0.0": {
+        "runtime": {
+          "BibliotecaTiempoTranscurrido.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculadoraDeTiempoTranscurrido/3.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaTema/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaTiempoTranscurrido/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
