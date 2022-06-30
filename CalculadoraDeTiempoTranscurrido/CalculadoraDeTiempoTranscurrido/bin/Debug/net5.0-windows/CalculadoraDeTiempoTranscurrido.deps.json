@@ -9,7 +9,8 @@
       "CalculadoraDeTiempoTranscurrido/3.0.0": {
         "dependencies": {
           "BibliotecaTema": "1.0.0",
-          "BibliotecaTiempoTranscurrido": "1.0.0"
+          "BibliotecaTiempoTranscurrido": "1.0.0",
+          "Validaciones": "1.0.0"
         },
         "runtime": {
           "CalculadoraDeTiempoTranscurrido.dll": {}
@@ -23,6 +24,11 @@
       "BibliotecaTiempoTranscurrido/1.0.0": {
         "runtime": {
           "BibliotecaTiempoTranscurrido.dll": {}
+        }
+      },
+      "Validaciones/1.0.0": {
+        "runtime": {
+          "Validaciones.dll": {}
         }
       }
     }
@@ -39,6 +45,11 @@
       "sha512": ""
     },
     "BibliotecaTiempoTranscurrido/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Validaciones/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

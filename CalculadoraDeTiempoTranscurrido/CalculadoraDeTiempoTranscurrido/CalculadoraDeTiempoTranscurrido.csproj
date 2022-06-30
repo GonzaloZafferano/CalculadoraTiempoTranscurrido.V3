@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BibliotecaTema\BibliotecaTema.csproj" />
     <ProjectReference Include="..\BibliotecaTiempoTranscurrido\BibliotecaTiempoTranscurrido.csproj" />
+    <ProjectReference Include="..\Validaciones\Validaciones.csproj" />
   </ItemGroup>
 
   <ItemGroup>

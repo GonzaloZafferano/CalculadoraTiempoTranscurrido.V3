@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using BibliotecaTema;
 using BibliotecaTiempoTranscurrido;
+using Validaciones;
 
 namespace CalculadoraDeTiempoTranscurrido
 {
@@ -40,66 +41,59 @@ namespace CalculadoraDeTiempoTranscurrido
         {
             _ = Enum.TryParse(Properties.Settings.Default.temaAplicado, out Tema.Temas tema);
 
+            switch(tema)
+            {
+                case Tema.Temas.Azul:
+                    this.rBtnAzul.IsChecked = true;
+                    break;
+                case Tema.Temas.Verde:
+                    this.rbtnVerde.IsChecked = true;
+                    break;
+                case Tema.Temas.Rosa:
+                    this.rBtnRosa.IsChecked = true;
+                    break;
+            }
+
             this.AplicarTemaElegido(tema);
-            this.CargarAnios();
-            this.CargarMeses();
-            this.CargarDias();
             this.Limpiar();
         }
 
         /// <summary>
-        /// Carga una lista de años en el comboBox de años.
+        /// Carga la fecha actual en los Textbox recibidos por parametro.
         /// </summary>
-        private void CargarAnios()
+        /// <param name="anio">Textbox del año.</param>
+        /// <param name="mes">Textbox del mes.</param>
+        /// <param name="dia">Textbox del dia.</param>
+        private void CargarFechaActual(TextBox anio, TextBox mes, TextBox dia)
         {
-            int anioFinal = DateTime.Now.Year + 100;
-
-            for (int i = 1900; i <= anioFinal; i++)
-            {
-                this.cmbAniosInicial.Items.Add(i);
-                this.cmbAniosFinal.Items.Add(i);
-            }
+            anio.Text = DateTime.Now.Year.ToString();
+            mes.Text = DateTime.Now.Month.ToString();
+            dia.Text = DateTime.Now.Day.ToString();
         }
 
         /// <summary>
-        /// Carga una lista de meses en el comboBox de meses.
+        /// Carga los datos en el Label
         /// </summary>
-        private void CargarMeses()
+        private void CargarLabelConDatos()
         {
-            string cadena;
-
-            for (int i = 1; i <= 12; i++)
+            try
             {
-                cadena = "";
+                DateTime fechaFinal = new DateTime(int.Parse(this.txtAnioFinal.Text), int.Parse(this.txtMesFinal.Text), int.Parse(this.txtDiaFinal.Text));
 
-                if (i < 10)
+                DateTime fechaInicial = new DateTime(int.Parse(this.txtAnioInicial.Text), int.Parse(this.txtMesInicial.Text), int.Parse(this.txtDiaInicial.Text));
+
+                if (fechaInicial <= fechaFinal)
                 {
-                    cadena = "0";
+                    this.lblAniosActual.Content = TiempoTranscurrido.ObtenerStringConAnioMesYDia(fechaInicial, fechaFinal);
                 }
-
-                cadena += i;
-                this.cmbMesFinal.Items.Add(cadena);
-                this.cmbMesInicial.Items.Add(cadena);
+                else
+                {
+                    MessageBox.Show($"Un momento! La fecha inicial ({fechaInicial.ToShortDateString()}) no puede ser mayor a la fecha final ({fechaFinal.ToShortDateString()})!", "Alerta, fecha invalida!", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             }
-        }
-
-        /// <summary>
-        /// Carga una lista de dias en el comboBox de dias.
-        /// </summary>
-        private void CargarDias()
-        {
-            string cadena;
-            for (int i = 1; i <= 31; i++)
+            catch (Exception)
             {
-                cadena = "";
-
-                if (i < 10)
-                {
-                    cadena = "0";
-                }
-                cadena += i;
-                this.cmbDiasFinal.Items.Add(cadena);
-                this.cmbDiaInicial.Items.Add(cadena);
+                MessageBox.Show("Un momento! La/s fecha/s indicada/s no existe/existen!", "Alerta, fecha invalida!", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -116,43 +110,26 @@ namespace CalculadoraDeTiempoTranscurrido
         {
             if (object.ReferenceEquals(sender, btnFechaHoyFinal))
             {
-                this.CargarFechaActual(this.cmbDiasFinal, this.cmbMesFinal, this.cmbAniosFinal);
+                this.CargarFechaActual(this.txtAnioFinal, this.txtMesFinal, this.txtDiaFinal);
             }
             else
             {
-                this.CargarFechaActual(this.cmbDiaInicial, this.cmbMesInicial, this.cmbAniosInicial);
+                this.CargarFechaActual(this.txtAnioInicial, this.txtMesInicial, this.txtDiaInicial);
             }
         }
 
         /// <summary>
-        /// Carga la fecha actual en los comboBox recibidos por parametro.
+        /// Evalua si estan cargadas las fechas.
         /// </summary>
-        /// <param name="dia">Combobox de dias</param>
-        /// <param name="mes">Combobox de meses</param>
-        /// <param name="anio">Combobox de años</param>
-        private void CargarFechaActual(ComboBox dia, ComboBox mes, ComboBox anio)
+        /// <returns>True si estan cargadas, caso contrario False.</returns>
+        private bool EstanFechasCargadas()
         {
-            dia.SelectedIndex = DateTime.Now.Day - 1;
-            mes.SelectedIndex = DateTime.Now.Month - 1;
-            anio.SelectedIndex = this.ObtenerIndiceAño();
-        }
-
-        /// <summary>
-        /// Obtiene el indice correspondiente al año actual, dentro del ComboBox de años.
-        /// </summary>
-        /// <returns>Un numero entero, que representa el indice del año actual dentro del comboBox de años</returns>
-        private int ObtenerIndiceAño()
-        {
-            int retorno = 0;
-            for (int i = 0; i < this.cmbAniosInicial.Items.Count; i++)
-            {
-                if ((int)this.cmbAniosInicial.Items[i] == DateTime.Now.Year)
-                {
-                    retorno = i;
-                    break;
-                }
-            }
-            return retorno;
+            return !string.IsNullOrWhiteSpace(this.txtDiaInicial.Text) &&
+                   !string.IsNullOrWhiteSpace(this.txtMesInicial.Text) &&
+                   !string.IsNullOrWhiteSpace(this.txtAnioInicial.Text) &&
+                   !string.IsNullOrWhiteSpace(this.txtDiaFinal.Text) &&
+                   !string.IsNullOrWhiteSpace(this.txtMesFinal.Text) &&
+                   !string.IsNullOrWhiteSpace(this.txtAnioFinal.Text);
         }
 
         /// <summary>
@@ -162,51 +139,50 @@ namespace CalculadoraDeTiempoTranscurrido
         /// <param name="e">Objeto que contiene los datos del evento</param>
         private void btnCalcular_Click(object sender, RoutedEventArgs e)
         {
-            if (this.EstanComboBoxesCargados())
+            if (this.EstanFechasCargadas())
             {
                 this.CargarLabelConDatos();
             }
             else
             {
-                MessageBox.Show("Un momento! Complete los campos 'Dia', 'Mes' y 'Año' para poder operar!", "Alerta, campos incompletos!", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Un momento! Complete los campos 'Día', 'Mes' y 'Año' para poder operar!", "Alerta, campos incompletos!", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
         /// <summary>
-        /// Evalua que todos los ComboBoxes esten Cargados.
+        /// Escribe en el TextBox de dia un contenido valido (numeros de 1 - 31).
         /// </summary>
-        /// <returns>True si los ComboBoxes estan cargados, caso contrario False.</returns>
-        private bool EstanComboBoxesCargados()
+        /// <param name="sender">Objeto que dispara el evento</param>
+        /// <param name="e">Objeto que contiene los datos del evento</param>
+        private void txtDia_TextChanged(object sender, TextChangedEventArgs e)
         {
-            return this.cmbDiaInicial.SelectedItem != null && this.cmbMesInicial.SelectedItem != null &&
-                   this.cmbAniosInicial.SelectedItem != null && this.cmbDiasFinal.SelectedItem != null &&
-                   this.cmbMesFinal.SelectedItem != null && this.cmbAniosFinal.SelectedItem != null;
+            TextBox txt = ((TextBox)sender);
+            txt.Text = ValidarFecha.ObtenerDiaValido(txt.Text);
+            txt.SelectionStart = txt.Text.Length;
         }
 
         /// <summary>
-        /// Carga los datos en el Label
+        /// Escribe en el TextBox de mes un contenido valido (numeros de 1 - 12).
         /// </summary>
-        private void CargarLabelConDatos()
+        /// <param name="sender">Objeto que dispara el evento</param>
+        /// <param name="e">Objeto que contiene los datos del evento</param>
+        private void txtMes_TextChanged(object sender, TextChangedEventArgs e)
         {
-            try
-            {
-                DateTime fechaFinal = new DateTime(int.Parse(this.cmbAniosFinal.SelectedItem.ToString()), int.Parse(this.cmbMesFinal.SelectedItem.ToString()), int.Parse(this.cmbDiasFinal.SelectedItem.ToString()));
+            TextBox txt = ((TextBox)sender);
+            txt.Text = ValidarFecha.ObtenerMesValido(txt.Text);
+            txt.SelectionStart = txt.Text.Length;
+        }
 
-                DateTime fechaInicial = new DateTime(int.Parse(this.cmbAniosInicial.SelectedItem.ToString()), int.Parse(this.cmbMesInicial.SelectedItem.ToString()), int.Parse(this.cmbDiaInicial.SelectedItem.ToString()));
-
-                if (fechaInicial <= fechaFinal)
-                {
-                    this.lblAniosActual.Content = TiempoTranscurrido.ObtenerStringConAnioMesYDia(fechaInicial, fechaFinal);
-                }
-                else
-                {
-                    MessageBox.Show($"Un momento! La fecha inicial ({fechaInicial.ToShortDateString()}) no puede ser mayor a la fecha final ({fechaFinal.ToShortDateString()})!", "Alerta, fecha invalida!", MessageBoxButton.OK, MessageBoxImage.Information);
-                }
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Un momento! La/s fecha/s indicada/s no existe/existen!", "Alerta, fecha invalida!", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
+        /// <summary>
+        /// Escribe en el TextBox de año un contenido valido (numeros de 1 - 9999).
+        /// </summary>
+        /// <param name="sender">Objeto que dispara el evento</param>
+        /// <param name="e">Objeto que contiene los datos del evento</param>
+        private void txtAnio_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox txt = ((TextBox)sender);
+            txt.Text = ValidarFecha.ObtenerAnioValido(txt.Text);
+            txt.SelectionStart = txt.Text.Length;
         }
 
         #endregion
@@ -254,16 +230,17 @@ namespace CalculadoraDeTiempoTranscurrido
         private void CargarTema(Visual elemento, Tema tema)
         {
             if (elemento is Label || elemento is Button ||
-                elemento is GroupBox || elemento is ComboBox ||
+                elemento is GroupBox || elemento is TextBox ||
                 elemento is RadioButton)
             {
                 ((Control)elemento).Background = tema.ColorDeFondoControl;
                 ((Control)elemento).Foreground = tema.ColorDeLetra;
                 ((Control)elemento).BorderBrush = tema.ColorBordeBoton;
 
-                if (elemento is ComboBox)
+                if (elemento is TextBox textBox)
                 {
-                    ((ComboBox)elemento).Opacity = 0.4;
+                    textBox.Background = Brushes.White;
+                    textBox.FontWeight = FontWeights.Bold;
                 }
             }
         }
@@ -271,18 +248,18 @@ namespace CalculadoraDeTiempoTranscurrido
         /// <summary>
         /// Recorre todos los controles visuales HIJOS del objeto recibido por parametro
         /// </summary>
-        /// <param name="myVisual">Objeto visual a recorrer</param>
-        private void RecorrerControlesVisualesParaAplicarTema(Visual myVisual, ModificarControles metodo, Tema tema)
+        /// <param name="visual">Objeto visual a recorrer</param>
+        private void RecorrerControlesVisualesParaAplicarTema(Visual visual, ModificarControles metodo, Tema tema)
         {
             this.Background = tema.ColorDeFondoAplicacion;
 
-            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(myVisual); i++)
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(visual); i++)
             {
-                Visual childVisual = (Visual)VisualTreeHelper.GetChild(myVisual, i);
+                Visual visualHijo = (Visual)VisualTreeHelper.GetChild(visual, i);
 
-                metodo(childVisual, tema);
+                metodo(visualHijo, tema);
 
-                this.RecorrerControlesVisualesParaAplicarTema(childVisual, metodo, tema);
+                this.RecorrerControlesVisualesParaAplicarTema(visualHijo, metodo, tema);
             }
         }
 
@@ -305,13 +282,13 @@ namespace CalculadoraDeTiempoTranscurrido
         /// </summary>
         private void Limpiar()
         {
-            this.cmbAniosFinal.SelectedItem = null;
-            this.cmbAniosInicial.SelectedItem = null;
-            this.cmbDiaInicial.SelectedItem = null;
-            this.cmbDiasFinal.SelectedItem = null;
-            this.cmbMesFinal.SelectedItem = null;
-            this.cmbMesInicial.SelectedItem = null;
-            this.lblAniosActual.Content = "";
+            this.txtDiaInicial.Text = string.Empty;
+            this.txtMesInicial.Text = string.Empty;
+            this.txtAnioInicial.Text = string.Empty;
+            this.txtDiaFinal.Text = string.Empty;
+            this.txtMesFinal.Text = string.Empty;
+            this.txtAnioFinal.Text = string.Empty;
+            this.lblAniosActual.Content = string.Empty;
         }
 
         /// <summary>
@@ -329,6 +306,6 @@ namespace CalculadoraDeTiempoTranscurrido
             }
         }
 
-        #endregion
+        #endregion              
     }
 }

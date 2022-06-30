@@ -1,0 +1,12 @@
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Debug\net5.0-windows\Validaciones.deps.json
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Debug\net5.0-windows\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Debug\net5.0-windows\ref\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Debug\net5.0-windows\Validaciones.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.csproj.AssemblyReference.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\ref\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Debug\net5.0-windows\Validaciones.pdb

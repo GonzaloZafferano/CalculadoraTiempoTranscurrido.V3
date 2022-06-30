@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaTema", "Bibliotec
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Calculadora de Tiempo Transcurrido", "Calculadora de Tiempo Transcurrido\Calculadora de Tiempo Transcurrido.vdproj", "{5872E3E2-7CA9-4706-9553-A2997B09C063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validaciones", "Validaciones\Validaciones.csproj", "{C75E870A-1C86-4B81-9CDB-85D29AA71715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{95255E40-0BAB-420A-A055-96471681AD5D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5872E3E2-7CA9-4706-9553-A2997B09C063}.Debug|Any CPU.ActiveCfg = Debug
 		{5872E3E2-7CA9-4706-9553-A2997B09C063}.Release|Any CPU.ActiveCfg = Release
+		{C75E870A-1C86-4B81-9CDB-85D29AA71715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75E870A-1C86-4B81-9CDB-85D29AA71715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75E870A-1C86-4B81-9CDB-85D29AA71715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75E870A-1C86-4B81-9CDB-85D29AA71715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
