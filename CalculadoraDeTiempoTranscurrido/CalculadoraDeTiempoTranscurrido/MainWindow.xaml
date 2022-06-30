@@ -6,32 +6,35 @@
         xmlns:local="clr-namespace:CalculadoraDeTiempoTranscurrido"
         mc:Ignorable="d"
         Title="Calculadora de Tiempo" Height="310" Width="460" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" FontFamily="Arial" Background="{x:Null}" Topmost="True" Closing="ventanaPrincipal_Closing" Loaded="ventanaPrincipal_Loaded" Icon="/IconoCalculadoraFechas.ico">
-    <Grid>
+    <Grid x:Name="gridPrincipal" KeyDown="gridPrincipal_KeyDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <Label x:Name="lblDiaInicial" Content="Día" HorizontalAlignment="Left" Margin="13,35,0,0" VerticalAlignment="Top" Height="29" Width="59" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblMesInicial" Content="Mes" HorizontalAlignment="Left" Margin="72,35,0,0" VerticalAlignment="Top" Height="29" Width="59" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblAnioInicial" Content="Año" HorizontalAlignment="Left" Margin="131,35,0,0" VerticalAlignment="Top" Height="29" Width="80" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblAniosActual" Content="" HorizontalAlignment="Left" Margin="13,145,0,0" VerticalAlignment="Top" Height="122" Width="287" FontFamily="Arial" FontSize="32" HorizontalContentAlignment="Left" Background="{x:Null}" Foreground="#FF147A71"/>
-        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="12,102,0,0" VerticalAlignment="Top" Height="31" Width="90" FontFamily="Arial" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnLimpiar_Click" TabIndex="4" Foreground="Black" BorderBrush="Black"/>
-        <Button x:Name="btnFechaHoyInicial" Content="Hoy" HorizontalAlignment="Left" Margin="131,3,0,0" VerticalAlignment="Top" Height="32" Width="80" Foreground="Black" Grid.IsSharedSizeScope="True" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnFechaHoy" BorderBrush="Black"/>
+        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="12,102,0,0" VerticalAlignment="Top" Height="31" Width="90" FontFamily="Arial" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnLimpiar_Click" TabIndex="7" Foreground="Black" BorderBrush="Black"/>
+        <Button x:Name="btnFechaHoyInicial" Content="Hoy" HorizontalAlignment="Left" Margin="131,3,0,0" VerticalAlignment="Top" Height="32" Width="80" Foreground="Black" Grid.IsSharedSizeScope="True" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnFechaHoy" BorderBrush="Black" TabIndex="8"/>
         <Label x:Name="lblDiaFinal" Content="Día" HorizontalAlignment="Left" Margin="240,35,0,0" VerticalAlignment="Top" Height="29" Width="59" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblMesFinal" Content="Mes" HorizontalAlignment="Left" Margin="299,35,0,0" VerticalAlignment="Top" Height="29" Width="59" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblAnioFinal" Content="Año" HorizontalAlignment="Left" Margin="358,35,0,0" VerticalAlignment="Top" Height="29" Width="80" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="Black"/>
         <Label x:Name="lblFechaFinal" Content="Fecha Final" HorizontalAlignment="Left" Margin="240,3,0,0" VerticalAlignment="Top" Width="119" Background="{x:Null}" Foreground="Black" FontSize="19" HorizontalContentAlignment="Center" Height="32"/>
         <Label x:Name="lblFechaInicial" Content="Fecha Inicial" HorizontalAlignment="Left" Margin="13,3,0,0" VerticalAlignment="Top" Width="118" Background="{x:Null}" Foreground="Black" FontSize="19" HorizontalContentAlignment="Center" Height="32"/>
-        <Button x:Name="btnFechaHoyFinal" Content="Hoy" HorizontalAlignment="Left" Margin="359,3,0,0" VerticalAlignment="Top" Height="32" Width="79" Foreground="Black" Grid.IsSharedSizeScope="True" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnFechaHoy" BorderBrush="Black"/>
-        <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="121,102,0,0" VerticalAlignment="Top" Height="31" Width="90" FontFamily="Arial" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnCalcular_Click" TabIndex="4" Foreground="Black" BorderBrush="Black"/>
+        <Button x:Name="btnFechaHoyFinal" Content="Hoy" HorizontalAlignment="Left" Margin="359,3,0,0" VerticalAlignment="Top" Height="32" Width="79" Foreground="Black" Grid.IsSharedSizeScope="True" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnFechaHoy" BorderBrush="Black" TabIndex="9"/>
+        <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="121,102,0,0" VerticalAlignment="Top" Height="31" Width="90" FontFamily="Arial" FontSize="20" Background="{x:Null}" BorderThickness="2,2,2,2" Click="btnCalcular_Click" TabIndex="6" Foreground="Black" BorderBrush="Black"/>
         <GroupBox x:Name="grpCajaTemas" Header="Tema" Margin="338,147,22,27" FontSize="20" FontWeight="Bold" BorderBrush="Black" BorderThickness="1,1,1,1">
             <StackPanel>
-                <RadioButton x:Name="rbtnVerde" Content="Verde" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal"/>
-                <RadioButton x:Name="rBtnRosa" Content="Rosa" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal"/>
-                <RadioButton x:Name="rBtnAzul" Content="Azul" HorizontalContentAlignment="Left" HorizontalAlignment="Stretch" Padding="4,-1,0,-1" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal"/>
+                <RadioButton x:Name="rbtnVerde" Content="Verde" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal" TabIndex="10"/>
+                <RadioButton x:Name="rBtnRosa" Content="Rosa" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal" TabIndex="11"/>
+                <RadioButton x:Name="rBtnAzul" Content="Azul" HorizontalContentAlignment="Left" HorizontalAlignment="Stretch" Padding="4,-1,0,-1" VerticalContentAlignment="Center" Click="rbtnTema_Click" FontWeight="Normal" TabIndex="12"/>
             </StackPanel>
         </GroupBox>
-        <TextBox x:Name="txtDiaInicial" HorizontalAlignment="Left" Margin="13,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtDia_TextChanged"/>
-        <TextBox x:Name="txtMesInicial" HorizontalAlignment="Left" Margin="72,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtMes_TextChanged"/>
-        <TextBox x:Name="txtAnioInicial" HorizontalAlignment="Left" Margin="131,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="28" FontSize="24" MaxLength="4" MaxLines="1" TextChanged="txtAnio_TextChanged"/>
-        <TextBox x:Name="txtDiaFinal" HorizontalAlignment="Left" Margin="240,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtDia_TextChanged"/>
-        <TextBox x:Name="txtMesFinal" HorizontalAlignment="Left" Margin="299,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtMes_TextChanged"/>
-        <TextBox x:Name="txtAnioFinal" HorizontalAlignment="Left" Margin="358,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="28" FontSize="24" MaxLength="4" MaxLines="1" TextChanged="txtAnio_TextChanged"/>
+        <TextBox x:Name="txtDiaInicial" HorizontalAlignment="Left" Margin="13,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtDia_TextChanged" TabIndex="0"/>
+        <TextBox x:Name="txtMesInicial" HorizontalAlignment="Left" Margin="72,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtMes_TextChanged" TabIndex="1"/>
+        <TextBox x:Name="txtAnioInicial" HorizontalAlignment="Left" Margin="131,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="28" FontSize="24" MaxLength="4" MaxLines="1" TextChanged="txtAnio_TextChanged" TabIndex="2"/>
+        <TextBox x:Name="txtDiaFinal" HorizontalAlignment="Left" Margin="240,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtDia_TextChanged" TabIndex="3"/>
+        <TextBox x:Name="txtMesFinal" HorizontalAlignment="Left" Margin="299,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" Height="28" FontSize="24" MaxLength="2" MaxLines="1" TextChanged="txtMes_TextChanged" TabIndex="4"/>
+        <TextBox x:Name="txtAnioFinal" HorizontalAlignment="Left" Margin="358,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="28" FontSize="24" MaxLength="4" MaxLines="1" TextChanged="txtAnio_TextChanged" TabIndex="5"/>
     </Grid>
 </Window>

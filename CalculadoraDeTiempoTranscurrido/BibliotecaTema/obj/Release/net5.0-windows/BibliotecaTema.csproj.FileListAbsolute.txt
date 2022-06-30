@@ -10,3 +10,15 @@ C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\Calc
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\ref\BibliotecaTema.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Release\net5.0-windows\BibliotecaTema.deps.json
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Release\net5.0-windows\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Release\net5.0-windows\ref\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\bin\Release\net5.0-windows\BibliotecaTema.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.csproj.AssemblyReference.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\ref\BibliotecaTema.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTema\obj\Release\net5.0-windows\BibliotecaTema.pdb

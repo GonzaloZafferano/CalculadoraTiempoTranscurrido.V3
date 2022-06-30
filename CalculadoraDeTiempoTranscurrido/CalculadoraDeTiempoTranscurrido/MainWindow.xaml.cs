@@ -102,6 +102,19 @@ namespace CalculadoraDeTiempoTranscurrido
         #region Logica
 
         /// <summary>
+        /// Evalua el boton presionado. Si es "Escape", se intentara cerrar la aplicacion.
+        /// </summary>
+        /// <param name="sender">Objeto que dispara el evento</param>
+        /// <param name="e">Objeto que contiene los datos del evento</param>
+        private void gridPrincipal_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        /// <summary>
         /// Evento que se dispara al hacer click sobre alguno de los "btnFechaHoy"
         /// </summary>
         /// <param name="sender">Objeto que dispara el evento</param>
@@ -306,6 +319,6 @@ namespace CalculadoraDeTiempoTranscurrido
             }
         }
 
-        #endregion              
+        #endregion
     }
 }
