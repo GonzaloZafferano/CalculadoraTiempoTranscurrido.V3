@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {}
+    "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
+    "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
         "projectName": "BibliotecaTema",
-        "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj",
         "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\obj\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
+    "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
         "projectName": "BibliotecaTiempoTranscurrido",
-        "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj",
         "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\obj\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -127,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {
+    "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj": {
       "version": "3.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
         "projectName": "CalculadoraDeTiempoTranscurrido",
-        "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido.csproj",
         "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\obj\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\CalculadoraDeTiempoTranscurrido\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -157,14 +157,14 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
-                "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj"
+              "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj": {
+                "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTema\\BibliotecaTema.csproj"
               },
-              "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
-                "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj"
+              "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj": {
+                "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\BibliotecaTiempoTranscurrido\\BibliotecaTiempoTranscurrido.csproj"
               },
-              "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj": {
-                "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj"
+              "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj": {
+                "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj"
               }
             }
           }
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj": {
+    "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj",
+        "projectUniqueName": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj",
         "projectName": "Validaciones",
-        "projectPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj",
+        "projectPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\Validaciones.csproj",
         "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\obj\\",
+        "outputPath": "C:\\Users\\GONZALO\\Desktop\\tiempo\\CalculadoraTiempoTranscurrido.V3\\CalculadoraDeTiempoTranscurrido\\Validaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
