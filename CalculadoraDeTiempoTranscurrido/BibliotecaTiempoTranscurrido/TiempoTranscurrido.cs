@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace BibliotecaTiempoTranscurrido
 {
@@ -15,19 +16,28 @@ namespace BibliotecaTiempoTranscurrido
         /// <returns>Un mensaje con la cantidad de años, meses y dias transcurridos.</returns>
         public static string ObtenerStringConAnioMesYDia(DateTime fechaInicial, DateTime fechaFinal)
         {
+            StringBuilder sb = new StringBuilder();
             int anios = 0;
             int meses = 0;
             int dias = 0;
+            int diasTotales = 0;
+
             TiempoTranscurrido.fechaFinal = fechaFinal;
 
             if (TiempoTranscurrido.fechaFinal.ToShortDateString() != fechaInicial.ToShortDateString())
             {
-                anios = ObtenerAnios(fechaInicial);
-                meses = ObtenerMeses(fechaInicial);
-                dias = ObtenerDias(fechaInicial);
+                anios = TiempoTranscurrido.ObtenerAnios(fechaInicial);
+                meses = TiempoTranscurrido.ObtenerMeses(fechaInicial);
+                dias = TiempoTranscurrido.ObtenerDias(fechaInicial);
+                diasTotales = TiempoTranscurrido.ObtenerDiferenciaTotalEnDias(fechaInicial);
             }
 
-            return $"{anios} Años\n{meses} Mes/es\n{dias} Día/s";
+            sb.AppendLine(string.Format("{0:N0} años.", anios));
+            sb.AppendLine(string.Format("{0} meses.", meses));
+            sb.AppendLine(string.Format("{0} días.", dias));
+            sb.AppendLine(string.Format("{0:N0} días en total.", diasTotales));
+
+            return sb.ToString();
         }
 
         /// <summary>
@@ -62,7 +72,7 @@ namespace BibliotecaTiempoTranscurrido
             }
             else
             {
-                diasTranscurridos = ObtenerDiasTranscurridosEntreElMesAnteriorYActual(fechaInicial);
+                diasTranscurridos = TiempoTranscurrido.ObtenerDiasTranscurridosEntreElMesAnteriorYActual(fechaInicial);
             }
             return diasTranscurridos;
         }
@@ -78,7 +88,7 @@ namespace BibliotecaTiempoTranscurrido
 
             if (fechaInicial.Day != TiempoTranscurrido.fechaFinal.Day)
             {
-                DateTime fechaMesAnterior = ObtenerMesAnteriorAlActual();
+                DateTime fechaMesAnterior = TiempoTranscurrido.ObtenerMesAnteriorAlActual();
                 int contadorDiasDelMes = 0;
                 int mesAnterior = fechaMesAnterior.Month;
 
@@ -139,6 +149,16 @@ namespace BibliotecaTiempoTranscurrido
                 }
             }
             return contadorMeses;
+        }
+
+        /// <summary>
+        /// Obtiene la diferencia total, en dias, entre dos fechas.
+        /// </summary>
+        /// <param name="fechaInicial">Fecha inicial.</param>
+        /// <returns>La diferencia total en dias, entre la fecha final y la fecha inicial.</returns>
+        private static int ObtenerDiferenciaTotalEnDias(DateTime fechaInicial)
+        {
+            return (int)((TiempoTranscurrido.fechaFinal - fechaInicial).TotalDays);
         }
 
         #endregion

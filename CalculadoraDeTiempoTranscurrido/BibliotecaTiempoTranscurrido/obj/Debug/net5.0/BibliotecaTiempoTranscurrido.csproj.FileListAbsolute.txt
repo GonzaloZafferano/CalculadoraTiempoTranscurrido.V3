@@ -22,3 +22,15 @@ C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\Calculad
 C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\ref\BibliotecaTiempoTranscurrido.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\bin\Debug\net5.0\BibliotecaTiempoTranscurrido.deps.json
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\bin\Debug\net5.0\BibliotecaTiempoTranscurrido.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\bin\Debug\net5.0\ref\BibliotecaTiempoTranscurrido.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\bin\Debug\net5.0\BibliotecaTiempoTranscurrido.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.csproj.AssemblyReference.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\ref\BibliotecaTiempoTranscurrido.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Debug\net5.0\BibliotecaTiempoTranscurrido.pdb

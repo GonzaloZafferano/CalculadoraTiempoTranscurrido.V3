@@ -33,3 +33,4 @@ C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTi
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Release\net5.0\BibliotecaTiempoTranscurrido.dll
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Release\net5.0\ref\BibliotecaTiempoTranscurrido.dll
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Release\net5.0\BibliotecaTiempoTranscurrido.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\BibliotecaTiempoTranscurrido\obj\Release\net5.0\BibliotecaTiempoTranscurrido.csproj.AssemblyReference.cache

@@ -21,11 +21,11 @@ namespace CalculadoraDeTiempoTranscurrido
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FrmPrincipal : Window
     {
         private delegate void ModificarControles(Visual visual, Tema tema);
 
-        public MainWindow()
+        public FrmPrincipal()
         {
             this.InitializeComponent();
         }

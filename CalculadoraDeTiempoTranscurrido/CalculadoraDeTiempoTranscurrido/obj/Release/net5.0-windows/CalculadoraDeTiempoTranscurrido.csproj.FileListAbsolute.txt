@@ -10,11 +10,9 @@ C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\Calc
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\bin\Release\net5.0-windows\BibliotecaTema.pdb
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\bin\Release\net5.0-windows\BibliotecaTiempoTranscurrido.pdb
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.csproj.AssemblyReference.cache
-C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\MainWindow.g.cs
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\App.g.cs
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido_MarkupCompile.cache
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido_MarkupCompile.lref
-C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\MainWindow.baml
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.g.resources
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.AssemblyInfoInputs.cache
@@ -83,3 +81,7 @@ C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTi
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\ref\CalculadoraDeTiempoTranscurrido.dll
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.pdb
 C:\Users\GONZALO\Desktop\tiempo\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\CalculadoraDeTiempoTranscurrido.genruntimeconfig.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\bin\Release\net5.0-windows\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\bin\Release\net5.0-windows\Validaciones.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\FrmPrincipal.g.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\CalculadoraDeTiempoTranscurrido\obj\Release\net5.0-windows\FrmPrincipal.baml
