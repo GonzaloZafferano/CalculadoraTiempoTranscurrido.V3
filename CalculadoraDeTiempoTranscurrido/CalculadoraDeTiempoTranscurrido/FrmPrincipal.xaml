@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculadoraDeTiempoTranscurrido"
         mc:Ignorable="d"
-        Title="Calculadora de Tiempo" Height="335" Width="465" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" FontFamily="Arial" Background="{x:Null}" Topmost="True" Closing="ventanaPrincipal_Closing" Loaded="ventanaPrincipal_Loaded" Icon="/IconoCalculadoraFechas.ico">
+        Title="Calculadora de Tiempo" Height="335" Width="465" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize" FontFamily="Arial" Background="{x:Null}" Topmost="True" Closing="ventanaPrincipal_Closing" Loaded="ventanaPrincipal_Loaded" Icon="/IconoCalculadoraFechas.ico">
     <Grid x:Name="gridPrincipal" KeyDown="gridPrincipal_KeyDown" Margin="0,0,0,-16" HorizontalAlignment="Center" Width="465">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

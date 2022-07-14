@@ -34,3 +34,14 @@ C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\Calc
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\ref\Validaciones.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (2)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Release\net5.0-windows\Validaciones.deps.json
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Release\net5.0-windows\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Release\net5.0-windows\ref\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\bin\Release\net5.0-windows\Validaciones.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\ref\Validaciones.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (7)\CalculadoraTiempoTranscurrido.V3\CalculadoraDeTiempoTranscurrido\Validaciones\obj\Release\net5.0-windows\Validaciones.pdb
